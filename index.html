@@ -20,47 +20,48 @@
             </ul>
             <img src="media/user.png" class="user-profile" onclick="toggleMenu()">
 
-            <div class="sub-menu-wrap" id="subMenu">
-                <div class="sub-menu">
-                    <div class="user-info">
-                        <img src="media/user.png">
-                        <h3>Arjun Basnet</h3>
-                    </div>
-                    <hr>
-
-                    <a href="" class="sub-menu-link">
-                        <img src="media/profile.png">
-                        <p>Edit Profile</p>
-                        <span>></span>
-                    </a>
-                    <a href="" class="sub-menu-link">
-                        <img src="media/setting.png">
-                        <p>Setting and Privacy</p>
-                        <span>></span>
-                    </a>
-                    <a href="" class="sub-menu-link">
-                        <img src="media/help.png">
-                        <p>Help & Support</p>
-                        <span>></span>
-                    </a>
-                    <a href="" class="sub-menu-link">
-                        <img src="media/logout.png">
-                        <p>Log Out</p>
-                        <span>></span>
-                    </a>
-                </div>
-            </div>
+            
         </nav>
+        <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="media/user.png">
+                    <h3>Arjun Basnet</h3>
+                </div>
+                <hr>
+
+                <a href="" class="sub-menu-link">
+                    <img src="media/profile.png">
+                    <p>Edit Profile</p>
+                    <span>></span>
+                </a>
+                <a href="" class="sub-menu-link">
+                    <img src="media/setting.png">
+                    <p>Setting and Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="" class="sub-menu-link">
+                    <img src="media/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="" class="sub-menu-link">
+                    <img src="media/logout.png">
+                    <p>Log Out</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
 
     </div>
-<script>
+    <script>
 
-let subMenu = document.getElementById("subMenu");
+        let subMenu = document.getElementById("subMenu");
 
-function toggleMenu(){
-    subMenu.classList.toggle("open-menu");
-}
-</script>
+        function toggleMenu() {
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
 </body>
 
 </html>

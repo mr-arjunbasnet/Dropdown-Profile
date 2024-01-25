@@ -41,10 +41,11 @@ nav ul li a{
     text-decoration: none;
 }
 .sub-menu-wrap{
-    position: absolute;
+    position: relative;
     top: 100%;
     right: 10%;
-    width: 320px;
+    margin-left: 850px;
+    width: 450px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s;
@@ -87,8 +88,9 @@ nav ul li a{
 .sub-menu-link p{
     width: 100%;
 }
-.sub-menu-link:hover p{
-    font-weight: 600;
+.sub-menu-link:hover{
+    color: #1a1a1a;
+    font-style: italic;
 }
 .sub-menu-link img{
     width: 40px;
